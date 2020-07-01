@@ -9,7 +9,7 @@ const Cellpage = () => {
   <div className="poem-container">
     <div className="poem">
 {`A bright flash
-overwhelms my `}<Link to="/home/">mitochondrial</Link>{` energy.
+overwhelms my `}<Link to="/home/">mitochondrial energy</Link>{`.
 Taking eager residence across the lazy river of our bloodstream,
 nanobots cluster together, erecting ATP `}<Link to="/state/">tolls</Link>{`. 
 —just a breath—and the energy currency of the cell
