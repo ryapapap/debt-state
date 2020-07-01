@@ -1,10 +1,16 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { Link } from "gatsby"
 
 import "../components/layout.css"
 
 const Cellpage = () => {
-  document.title = 'DEBT STATE'
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.document) {
+      return;
+    }
+
+    document.title = 'DEBT STATE';
+  }, []);
   return (
   <div className="poem-container">
     <div className="poem">

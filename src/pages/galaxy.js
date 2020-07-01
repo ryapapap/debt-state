@@ -4,7 +4,13 @@ import { Link } from "gatsby"
 import "../components/layout.css"
 
 const Galaxypage = () => {
-  document.title = 'DEBT STATE'
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.document) {
+      return;
+    }
+
+    document.title = 'DEBT STATE';
+  }, []);
   return (
   <div className="poem-container galaxy">
     <div className="poem">
