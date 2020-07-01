@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "../components/layout.css"
+
 const WorldPage = () => (
   <div className="poem-container">
     <div className="poem">

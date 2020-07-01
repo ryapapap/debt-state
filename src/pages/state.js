@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "../components/layout.css"
+
 const StatePage = () => (
   <div className="poem-container">
     <div className="poem">
