@@ -7,7 +7,7 @@ const HomePage = () => (
   <div className="poem-container">
     <div className="poem">
 {`Home 
-`}<Link to="/cell/">cell</Link>{` or `}<Link to="/state/">state</Link>{` `}
+`}<Link to="/cell/">cell</Link>{` or `}<Link to="/city/">city</Link>{` `}
     </div>
     <div className="home box" />
   </div>
