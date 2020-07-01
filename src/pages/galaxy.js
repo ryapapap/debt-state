@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 
-const Galaxypage = () => (
+const Galaxypage = () => {
+  document.title = 'DEBT STATE'
+  return (
   <div className="poem-container galaxy">
     <div className="poem">
 {`Galaxy 
@@ -11,6 +13,6 @@ const Galaxypage = () => (
     </div>
     <div className="galaxy box" />
   </div>
-)
+)}
 
 export default Galaxypage

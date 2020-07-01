@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 
-const HomePage = () => (
+const HomePage = () => {
+  document.title = 'DEBT STATE'
+  return (
   <div className="poem-container">
     <div className="poem">
 {`Home 
@@ -11,6 +13,6 @@ const HomePage = () => (
     </div>
     <div className="home box" />
   </div>
-)
+)}
 
 export default HomePage

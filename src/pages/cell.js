@@ -3,14 +3,21 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 
-const Cellpage = () => (
+const Cellpage = () => {
+  document.title = 'DEBT STATE'
+  return (
   <div className="poem-container">
     <div className="poem">
-{`Cell 
-`}<Link to="/galaxy/">galaxy</Link>{` or `}<Link to="/home/">home</Link>{` `}
+{`A bright flash
+overwhelms my `}<Link to="/home/">mitochondrial</Link>{` energy.
+Taking eager residence across the lazy river of our bloodstream,
+nanobots cluster together, erecting ATP `}<Link to="/state/">tolls</Link>{`. 
+—just a breath—and the energy currency of the cell
+sanctioned and sorted for `}<Link to="/galaxy/">motion</Link>{`,
+to determine where we’re going.`}
     </div>
     <div className="cell box" />
   </div>
-)
+)}
 
 export default Cellpage

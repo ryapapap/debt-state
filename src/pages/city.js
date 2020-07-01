@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 
-const CityPage = () => (
+const CityPage = () => {
+  document.title = 'DEBT STATE'
+  return (
   <div className="poem-container">
     <div className="poem">
 {`I’m sorry, 
@@ -25,6 +27,6 @@ we’re all in this together.`}
     </div>
     <div className="city box" />
   </div>
-)
+)}
 
 export default CityPage

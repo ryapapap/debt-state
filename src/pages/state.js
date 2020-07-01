@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 
-const StatePage = () => (
+const StatePage = () => {
+  document.title = 'DEBT STATE'
+  return (
   <div className="poem-container">
     <div className="poem">
 {`Welcome
@@ -36,6 +38,6 @@ Our printers are already warm.
     </div>
     <div className="state box" />
   </div>
-)
+)}
 
 export default StatePage

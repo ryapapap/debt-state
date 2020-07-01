@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 
 import "../components/layout.css"
 
-const WorldPage = () => (
+const WorldPage = () => {
+  document.title = 'DEBT STATE'
+  return (
   <div className="poem-container">
     <div className="poem">
 {`Go `}<Link to="/state/">outside</Link>{` and look up.
@@ -23,6 +25,6 @@ Where are you going to `}<Link to="/galaxy/">go</Link>{`?`}
     </div>
     <div className="world box" />
   </div>
-)
+)}
 
 export default WorldPage
