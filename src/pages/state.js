@@ -37,7 +37,7 @@ game. It’s a sum
 of sums that sum 
 from some to sum 
 for some. There’s 
-always `}<Link to="/world/">another</Link>{` sliver 
+always `}<Link to="/world/">another</Link>{` slice 
 of pie. Don’t you like pie? 
 Our printers are already warm.
 `}
