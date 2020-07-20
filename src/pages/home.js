@@ -14,8 +14,28 @@ const HomePage = () => {
   return (
   <div className="poem-container">
     <div className="poem">
-{`Home 
-`}<Link to="/cell/">cell</Link>{` or `}<Link to="/city/">city</Link>{` `}
+{`If it’s my fault, maybe I can fix it;
+`}<span className="italics">Sorrysorrysorrysorrysorrysorrysorry</span>{`
+My boyfriend calls it a sorry bazooka now
+
+When i can’t stop
+Hedging—
+
+Really, I think it’s more an assault rifle,
+Automatic fire 
+
+A `}<Link to="/cell/">predictable stream</Link>{` of unrelenting submission
+To coax 
+
+Automated indebtedness
+To stroke
+
+Manifest explosive opacity,
+I already knew the cypher
+
+He Who Has The Gold Makes `}<Link to="/city/">The Rules</Link>{`,
+you always chuckled. 
+`}
     </div>
     <div className="home box" />
   </div>

@@ -10,10 +10,19 @@
   background: black;
 }
 
+.poem-container.galaxy a {
+  color: #f39c12;
+}
+
+.italics {
+  font-style: italic;
+}
+
 .box {
   position: absolute;
   bottom: 25px;
   right: 25px;
+  z-index: -1;
 }
 
 .box.galaxy {
@@ -22,6 +31,7 @@
   height: 5px;
   right: 20vw;
   bottom: 30vh;
+  z-index: 1;
 }
 
 .box.cell {
@@ -58,6 +68,7 @@
   width: 75vw;
   height: 57vw;
   border-radius: 50%;
+  right: -25px;
 }
 
 .poem {
