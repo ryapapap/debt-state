@@ -17,7 +17,7 @@ const Galaxypage = () => {
 {`Jeff Bezos jet-skied on a blazar yesterday 
 my aunt told me, navel-gazing
 they’d turned the oxygen off on her neighbor the night before.
-HD18973-b remains the cruelest of `}<Link to="/world/">His colon</Link>{`ies.
+HD18973-b remains the cruelest of `}<Link to="/world/">His colonies</Link>{`.
 
 Indirect detection experiments still search for evidence of self-annihilation or decay of
 Dark matter in space.
